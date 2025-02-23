@@ -47,6 +47,47 @@ header a {
     text-transform: uppercase;
     background: white;
 }
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 3fr;
+}
+section {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+footer {
+    color: white;
+    background-image: linear-gradient(rgba(39,32,68,0.9),rgba(39,32,68,0.9)),
+    url("../images/bryan-angelo--1Jt-fMmw9E-unsplash.jpg;");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px 0;
+}
+footer h3 {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+}
+footer p {
+    font-weight: 400px;
+    font-size: 16px;
+    opacity: 0.7;
+    margin-right: 20px;
+    line-height: 24px
+}
+footer ul {
+    padding: 0;
+}
+footer li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+footer a {
+    color: white;
+    opacity: 0.7
+}
+
 @media (max-width: 900px) {
     header {
         padding: 60px 0;
