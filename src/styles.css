@@ -22,12 +22,19 @@ body {
 .card-body {
     padding: 30px;
 }
+.card-header.grid {
+    grid-gap: 0;
+}
 .card-footer {
     padding: 0 30px 30px;
 }
 .container {
     max-width:1400px;
     margin: 0 auto;
+}
+.embed {
+    width: 100%;
+    aspect-ratio: 1/1;
 }
 header {
     background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.2)),url("../images/john-prefer-u-Di0zMI4xI-unsplash.jpg");
@@ -85,7 +92,7 @@ header a {
 }
 
 .img-responsive {
-    max-width: 100%;
+    width: 100%;
     height: auto;
     display: block;
 }
@@ -193,5 +200,11 @@ footer a {
     }
     section {
         padding: 30px;
+    }
+    .card-header img {
+        display:none;
+    }
+    .embed {
+        aspect-ratio: 16/9;
     }
 }
